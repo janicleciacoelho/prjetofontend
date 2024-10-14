@@ -1,0 +1,168 @@
+body {
+    font-family: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+    margin: 0px;
+    padding: 0px;
+    background-color: #EBEBEB;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: #21272B;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 24px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    margin: 0; 
+}
+.luxo {
+    color: #1BB4E8; /* Cor azul claro para a palavra "Luxo" */
+    font-weight: bold; /* Destaque a palavra "Luxo" */
+    margin-right: 5px; /* Espaçamento entre "Luxo" e "Aluguel de iates" */
+}
+
+    .logo-titulo .logo {
+        width: 50px;
+        margin-right: 15px; 
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    content: "|";
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+nav ul li a.active {
+    color: #1BB4E8;
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 20px; /* Move o texto para mais perto da borda inferior */
+    right: 300px;  /* Alinha o texto à direita */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro com transparência */
+    color: white;
+    padding: 20px;
+    text-align: left; /* Alinha o texto à esquerda */
+    border-radius: 10px;
+    width: 300px;
+    
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.call-to-action img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.call-to-action p {
+    font-size: 16px; /* Tamanho do texto de chamada */
+    margin: 0;
+}
+
+.banner-text h2 {
+    font-size: 22px; /* Tamanho ajustado */
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.banner-text h3 {
+    font-size: 20px; /* Tamanho do número de telefone */
+    margin-top: 10px;
+    margin: 10px 0 0 0;
+    color: #C6B07F;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.box {
+    width: 48%;
+}
+
+.destinos h2, .frota h2 {
+    background-color: #1BB4E8;
+    color: white;
+    padding: 15px;
+    text-align: left;
+
+   
+}
+
+.frota h2 {
+    background-color: #C6B07F;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.frota-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #585656;
+    color: rgb(10, 10, 10);
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+}
